@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <DisplayHeader></DisplayHeader>
-      <h2>Let's get started!!!</h2>
+      <h2>Expense List</h2>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
