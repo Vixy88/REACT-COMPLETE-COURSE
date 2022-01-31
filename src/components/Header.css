@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px #000 solid;
+  margin: 10px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
